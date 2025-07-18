@@ -1,1 +1,84 @@
-<p>welcome to my resgistration</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Full stack developer course and training </h1>
+        <h2>Registration form</h2>
+    </div>
+    <br><br>
+    <form action="/submit" method="post">
+        <div class="container1">
+        <input type="text" id="name" name="name" placeholder="Name"required><br>
+        </div>
+        <div class="container2">
+        <input type="Email" id="Email" name="Email" placeholder="Email" required><br>
+        </div>
+        <div class="container3">
+        <input type="number" id="Mobile Number" name="Mobile Number" placeholder="Mobile Number" required><br>
+        </div>
+        <div class="container4">
+        <input type="date" id="Date fo Birth" name="Date of birth" placeholder="Date of birth" required><br>
+        </div>
+
+        <div class="container5">
+       <p>Current Education Level:</p>
+        <input type="radio" id="undergraduate (BCA,B.Texh,MCA)" name="current Education level" value="undergraduate (BCA,B.Tech,MCA)">
+        <label for="undergraduate (BCA,B.Tech,MCA)"></label>undergraduate(BCA,B.Tech,MCA)<br><br><br>
+        <input type="radio" id="postgraduate" name="education" value="postgraduate">
+        <lablel for="postgraduate">postgraduate</lablel><br><br><br>
+        <input type="radio" id="Diploma" name="education" value="Diploma">
+        <lablel for="Diploma">Diploma</lablel><br><br><br>
+        <input type="radio" id="others" name="education" value="postgraduate">
+        <lablel for="others">others</lablel>
+        </div>
+
+
+        <div class="container6">
+        <p>Year of study*</p>
+        <input type="radio" id="1st Year" name="year" value="1st Year">
+        <label for="1st year">1st year</label><br><br> <br>
+        <input type="radio" id="2nd year" name="year" value="2nd Year">
+        <label for="2nd year">2nd year</label><br><br> <br>
+         <input type="radio" id="3rd Year" name="year" value="3rd Year">
+        <label for="3rd year">3rd year</label><br><br> <br>
+         <input type="radio" id="Final year" name="year" value="Final year">
+        <label for="Final year">Final year</label><br><br> <br>
+         <input type="radio" id="graduated" name="year" value="graduated">
+        <label for="graduated">graduated</label>
+        </div>
+
+       <div class="container7">
+        <p>What is your current  level in web development</p><br>
+        <input type="radio" id="Beginners(0-6 Months)" name="year" value="Beginners(0-6 Months)">
+        <label for="Beginners (0-6 Months)">Beginners(0-6 Months)</label><br><br><br>
+        <input type="radio" id="Intermidiate(6 Months-1 year)" name="year" value="intermidiate(6 Months-1 year)">
+        <label for="intermidiate (6 Months-1 year)">intermidiate (6 Month-1 year)</label><br><br><br>
+        <input type="radio" id="Advanced (1+ years)" name="year" value="Advanced (1+years)">
+        <label for="Advanced (1+years)">Advanced (1+years)</label><br>
+       </div>
+      <div class="container8">
+        <p>Do you want to improve the communication & LinkedIn skills?</p>
+        <input type="radio" id="yes" name="communication" value="yes">
+        <label for="yes">yes</label><br><br>
+        <input type="radio" id="No" name="communication" value="No">
+        <label for="No">No</label><br><br>
+
+      </div>
+      <div class="container9">
+      <input type="submit" value="submit">
+
+      </div>
+
+
+
+
+    </form>
+    
+</body>
+</html>
